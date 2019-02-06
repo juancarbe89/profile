@@ -1,0 +1,154 @@
+/*Body
+Pick a nice background-color, font-family, color, font-size and line-height*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #747474;
+  font-size: 15px;
+  line-height: 1.6em;
+  background: linear-gradient(-45deg, #f7f7f7, #eeeeee, #393e46, #929aab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+h1 {
+ font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 3px solid transparent;
+  color: #626262;
+  border-color: #626262;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-profile {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #CCCCCC;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#icon-facebook {
+    color: #4267B1;
+}
+
+#icon-linkedin {
+    color: #1778B5;
+}
+
+#icon-instagram {
+    color: #2B2B2B;
+}
+
+#movies img{
+  width: 100px;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#movies td {
+  padding: 10px;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
