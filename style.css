@@ -50,12 +50,13 @@ h1, h2 {
 a {
   color: #1A1A1A;
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:hover {
-  border-bottom: 3px solid transparent;
   color: #626262;
   border-color: #626262;
+  font-size: 15px;
 }
 
 li {
@@ -63,8 +64,12 @@ li {
   padding: 0px 20px;
 }
 
+li i {
+  font-size: 25px;
+}
+
 .container {
-  width: 500px;
+  width: 700px;
   margin: 10px auto;
 }
 
@@ -81,7 +86,7 @@ li {
 .card {
   background: #FFFFFF;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   text-align: justify;
@@ -89,6 +94,11 @@ li {
 
 .text-center {
   text-align: center;
+}
+
+#icon-github {
+    color: #4F4F4F;
+
 }
 
 #icon-facebook {
